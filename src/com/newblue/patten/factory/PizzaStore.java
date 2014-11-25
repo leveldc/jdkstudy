@@ -11,6 +11,10 @@ public class PizzaStore {
     }
 
     public Pizza orderPizza(String type) {
-        return null;
+        Pizza pizza = null;
+        pizza = pizzaFactory.createPizza(type);
+        pizza.prepare();
+        pizza.bake();
+        return pizza;
     }
 }
