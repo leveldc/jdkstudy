@@ -6,11 +6,11 @@ package com.newblue.patten.factory;
 public class PizzaStore {
     private SimplePizzaFactory pizzaFactory;
 
-    public PizzaStore(SimplePizzaFactory factory){
+    public PizzaStore(SimplePizzaFactory factory) {
         this.pizzaFactory = factory;
     }
 
-    public Pizza orderPizza(String type){
+    public Pizza orderPizza(String type) {
         return null;
     }
 }
